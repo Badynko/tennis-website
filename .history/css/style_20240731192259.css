@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 1fr;
+  background-color: #2b7443;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}

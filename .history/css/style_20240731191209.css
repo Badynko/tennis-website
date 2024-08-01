@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #2b7443;
+}
+
+.logo {
+  width: 100%;
+  grid-column: 1 / -1;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}

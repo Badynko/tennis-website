@@ -1,0 +1,97 @@
+* {
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 95vh;
+  background: #34e7e4;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #ffffff;
+  padding: 2em 0 2em 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.left {
+  text-transform: uppercase;
+  color: #000;
+  background: #fff;
+  padding: 3em 0 3em 0;
+  flex: 1 1 100px;
+}
+
+main {
+  background: #3c40c6;
+  padding: 3em 0 3em 0;
+  flex: 5 5 150px;
+}
+
+.right {
+  background: #3c40c6;
+  padding: 3em 0 3em 0;
+}
+
+footer {
+  background: #3c40c6;
+  padding: 1em 0 1em 0;
+}
+
+/* OBSAH */
+
+p {
+  text-decoration: none;
+}
+
+h1 {
+  color: #3b3b3b;
+  font-family: "Inter", sans-serif;
+}
+
+h3{
+  fs
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.match-date {
+  font-size: 1rem;
+}
+
+.match-score {
+  text-decoration: none;
+}
+
+.player {
+  font-size: 1.5rem;
+}
+
+/* MEDIA QUERY */
+
+@media all and (max-width: 550px) {
+  .main {
+    flex-direction: column;
+  }
+
+  main {
+    padding: 5em 0 5em 0;
+  }
+}

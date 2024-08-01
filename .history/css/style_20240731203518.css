@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+}
+
+.header {
+  grid-area-te: header;
+  background-color: #038c2a;
+}
+
+.main {
+  grid-area: main;
+  background-color: #d7710c;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #010314;
+}
+
+.container {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "header  header  header"
+    " content content sidebar"
+    "footer  footer  footer";
+  background-color: #fff;
+  color: #444;
+}
