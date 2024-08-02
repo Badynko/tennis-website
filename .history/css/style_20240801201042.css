@@ -5,7 +5,7 @@
 
 body {
   height: 95vh;
-  background: #ffcc74;
+  background: #34e7e4;
   font-family: sans-serif;
   text-align: center;
   color: white;
@@ -50,23 +50,18 @@ main {
 }
 
 .right {
-  background: #fff;
+  background: #3c40c6;
   padding: 3em 0 3em 0;
-  margin: 0;
-  border-radius: 8px;
 }
 
 footer {
-  background: #0f1037;
+  background: #3c40c6;
   padding: 1em 0 1em 0;
-  border-radius: 8px;
 }
 
 /* OBSAH */
 
 p {
-  padding: 0;
-  margin: 0;
   text-decoration: none;
 }
 
@@ -84,66 +79,26 @@ ul {
   padding: 0;
 }
 
-.match-header {
-  padding: 1rem 0 1rem 0;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
+.match-date {
   font-size: 1rem;
-  background-color: #f3950f;
-  color: #fff;
 }
 
 .match-score {
-  padding: 1rem 0 1rem 0;
   text-decoration: none;
   font-size: 1.1rem;
 }
 
 .player {
-  padding: 1rem 0 1rem 0;
-  display: block;
   font-size: 1rem;
 }
 
 .match {
-  padding: 0;
-  margin-bottom: 20px;
-  border: 1px solid #f3950f;
+  padding: 15px;
+  background-color: #77d6f9;
   border-radius: 5px;
 }
 
-.win {
-  text-shadow: 1px 1px 1px #c4c0c0;
-  color: #00ff04;
-  font-weight: bold;
-}
-
-.lose {
-  text-shadow: 1px 1px 1px #c4c0c0;
-  color: #d30000;
-  font-weight: bold;
-}
-
 /* MEDIA QUERY */
-
-@media all and (max-width: 910px) {
-  .match-header {
-    display: block;
-  }
-  h1 {
-    font-size: 22px;
-  }
-
-  .logo-big {
-    display: none;
-  }
-
-  .logo-small {
-    display: block;
-  }
-}
 
 @media all and (max-width: 550px) {
   .main {
@@ -152,17 +107,5 @@ ul {
 
   main {
     padding: 5em 0 5em 0;
-  }
-
-  h1 {
-    font-size: 22px;
-  }
-
-  .logo-big {
-    display: none;
-  }
-
-  .logo-small {
-    display: block;
   }
 }

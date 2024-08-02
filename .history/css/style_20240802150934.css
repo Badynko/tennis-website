@@ -5,7 +5,7 @@
 
 body {
   height: 95vh;
-  background: #ffcc74;
+  background: #34e7e4;
   font-family: sans-serif;
   text-align: center;
   color: white;
@@ -85,10 +85,7 @@ ul {
 }
 
 .match-header {
-  padding: 1rem 0 1rem 0;
-  font-weight: bold;
   display: flex;
-  justify-content: space-around;
   margin: 0;
   font-size: 1rem;
   background-color: #f3950f;
@@ -96,13 +93,11 @@ ul {
 }
 
 .match-score {
-  padding: 1rem 0 1rem 0;
   text-decoration: none;
   font-size: 1.1rem;
 }
 
 .player {
-  padding: 1rem 0 1rem 0;
   display: block;
   font-size: 1rem;
 }
@@ -114,36 +109,7 @@ ul {
   border-radius: 5px;
 }
 
-.win {
-  text-shadow: 1px 1px 1px #c4c0c0;
-  color: #00ff04;
-  font-weight: bold;
-}
-
-.lose {
-  text-shadow: 1px 1px 1px #c4c0c0;
-  color: #d30000;
-  font-weight: bold;
-}
-
 /* MEDIA QUERY */
-
-@media all and (max-width: 910px) {
-  .match-header {
-    display: block;
-  }
-  h1 {
-    font-size: 22px;
-  }
-
-  .logo-big {
-    display: none;
-  }
-
-  .logo-small {
-    display: block;
-  }
-}
 
 @media all and (max-width: 550px) {
   .main {
@@ -152,17 +118,5 @@ ul {
 
   main {
     padding: 5em 0 5em 0;
-  }
-
-  h1 {
-    font-size: 22px;
-  }
-
-  .logo-big {
-    display: none;
-  }
-
-  .logo-small {
-    display: block;
   }
 }

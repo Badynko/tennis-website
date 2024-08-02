@@ -5,7 +5,7 @@
 
 body {
   height: 95vh;
-  background: #ffcc74;
+  background: #34e7e4;
   font-family: sans-serif;
   text-align: center;
   color: white;
@@ -127,23 +127,6 @@ ul {
 }
 
 /* MEDIA QUERY */
-
-@media all and (max-width: 910px) {
-  .match-header {
-    display: block;
-  }
-  h1 {
-    font-size: 22px;
-  }
-
-  .logo-big {
-    display: none;
-  }
-
-  .logo-small {
-    display: block;
-  }
-}
 
 @media all and (max-width: 550px) {
   .main {
