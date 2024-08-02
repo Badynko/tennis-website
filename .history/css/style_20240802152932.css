@@ -95,7 +95,7 @@ ul {
   color: #fff;
 }
 
-.match-header p:first-child {
+.match-header:first-child {
   padding-bottom: 0.5rem;
 }
 

@@ -96,6 +96,7 @@ ul {
 }
 
 .match-header p:first-child {
+  color: black;
   padding-bottom: 0.5rem;
 }
 
